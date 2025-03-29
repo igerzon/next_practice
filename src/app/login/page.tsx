@@ -25,7 +25,7 @@ export default function LoginPage() {
       <h1>Register</h1>
       <form onSubmit={handleLogin}>
         <label>
-          Email
+          Insert Email
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         </label>
         <br />
